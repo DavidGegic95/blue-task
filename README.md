@@ -1,4 +1,4 @@
-**NOTE**: The .env file is used to store the API_URL. **Please ensure that you add .env file and the according URL for the API in the .env file.**
+**NOTE**: The .env file is used to store the API_URL. **Please ensure that the .env file is added and that the according URL for the API is included in the .env file.**
 
 For starting server use:
 
