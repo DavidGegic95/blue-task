@@ -1,9 +1,9 @@
-import express from "express";
+import express, { Request, Response } from "express";
 import { getFileData } from "../services/fileService";
 
 const fileRoutes = express.Router();
 
-fileRoutes.get("/files", async (req, res) => {
+fileRoutes.get("/files", async (req: Request, res: Response) => {
   try {
     const data = await getFileData();
     res.json(data);
