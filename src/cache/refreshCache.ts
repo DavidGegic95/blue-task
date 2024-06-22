@@ -5,8 +5,7 @@ import "../config/env";
 
 const API_URL = process.env.API_URL || "";
 
-// const CACHE_DURATION = 24 * 60 * 60; // 24 hours in seconds
-const CACHE_DURATION = 30; // 30 seconds for easier testing
+const CACHE_DURATION = 24 * 60 * 60; // 24 hours in seconds
 
 export const refreshCache = async () => {
   try {
