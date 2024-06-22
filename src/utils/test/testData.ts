@@ -3,6 +3,7 @@ type UrlObject = {
 };
 
 export const testUrls: UrlObject[] = [
+  { fileUrl: "http://34.8.32.234:48183/SvnRep/" },
   { fileUrl: "http://34.8.32.234:48183/SvnRep/ADV-H5-New/README.txt" },
   { fileUrl: "http://34.8.32.234:48183/SvnRep/ADV-H5-New/VisualSVN.lck" },
   { fileUrl: "http://34.8.32.234:48183/SvnRep/ADV-H5-New/hooks-env.tmpl" },
